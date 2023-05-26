@@ -59,19 +59,6 @@ input{
 ::placeholder {
         color: white;
       }
-.hero-contant{
-    padding-left: 235px;
-    padding-top: 130px;
-    line-height: 50px;
-      }
-.feature-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.feature-group1{
-    display: flex;
-}
 
 /*start Detaile page*/
 .detaile-container{
@@ -80,13 +67,106 @@ justify-content: space-around;
 align-items: center;
 }
 .content-detaile ul{
-    margin-left: 2em;
+    margin-left: 35px;
 }
 .img-detaile img{
-    width: 37vw;
-    margin-top: 5em;
-    height: 125vh;
+    width: 30vw;
+    margin-top: 5px;
+    
+}
+.content-detaile{
+    margin-left: -229px;
+    line-height: 26px;
+    margin-top: 86px;
 }
 content-detaile h3,h4{
     text-transform: uppercase;
 }
+.detaile-btn button{
+    width: 92px;
+    border-radius: 15px;
+    height: 34px;
+    margin-top: 28px;
+    margin-left: 10px;
+    border: 1px solid #FFC700;
+    box-sizing: border-box;
+    
+}
+
+.detaile-btn .btn2 {
+    background-color: #FAC552;
+}
+
+.review-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10%;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.review-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 787px;
+}
+.review-direction{
+    display: flex;
+    gap:50px;
+}
+.reviw-card1{
+    
+    
+    border-style: outset;
+    border-bottom: 1px solid gray;
+    
+}
+.view-border{
+    border-bottom: 1px solid black
+}
+.share-review{
+    display: flex;
+    gap: 4px;}
+
+    /*start submit css*/
+    h2{
+        color: #1C598E;
+        text-align: center;
+        margin-top: 3em;
+}
+
+    
+    h2 .recipe-color{
+        color:#FFC700;
+    }
+    form{
+        margin-left: 33%;
+    margin-top: 2%;
+    border: 1px solid #FFC700;
+    display: inline-block;
+    width: 35%;
+    padding: 32px;
+    }
+    .btn-form{
+        width: 473px;
+    border-radius: 5px;
+    height: 32px;
+    margin-top: 10px;
+
+    border: 1px solid #FFC700;
+    box-sizing: border-box;
+
+    }
+    button{
+        text-align: center;
+    width: 90px;
+    height: 30px;
+    margin-left: 42%;
+    margin-top: 10px;
+    background-color: #FFC700;
+    border-radius: 10px;
+    color: #1C598E;
+    border: none;
+    }

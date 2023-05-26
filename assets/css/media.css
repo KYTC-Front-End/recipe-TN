@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+    /* your code should be written here  */
+    .detaile-container{
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        .img-detaile img {
+            width: 80vw;
+            /* margin-left: 23%; */
+}
+.content-detaile ul {
+text-align: center;
+}
+}
