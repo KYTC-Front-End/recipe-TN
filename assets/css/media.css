@@ -9,7 +9,91 @@
             width: 80vw;
             /* margin-left: 23%; */
 }
-.content-detaile ul {
+/* .content-detaile ul {
 text-align: center;
+} */
+.review-container{
+    width: 60%;
+    margin: auto;
 }
+.review-title{
+    flex-direction: column;
+    gap:0px;
+}
+.share-review{
+    flex-direction: column;
+}
+.content-detaile{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 24%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+/*submit page */
+form{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.btn-form{
+    width: 100%;
+}
+button{
+    margin:auto;
+    margin-top: 18px;
+}
+
+}
+/*Tablet*/
+@media (min-width: 601px) and  (max-width:900px) {
+    /*submit page */
+    
+   form{ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    width: 90%;
+    margin: auto;
+    }
+    .btn-form{
+        width: 100%;
+    }
+/* details page */
+.detaile-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+    .content-detaile{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 24%;
+        margin: auto;
+        padding-top: 40px;
+    }
+    .review-container{
+        width: 50%;
+    margin: auto;
+    }
+    .review-title{
+        gap: 221px;
+    }
+    .share-review{
+        margin: auto;
+    width: 50%;
+    padding-top: 17px;
+    }
 }

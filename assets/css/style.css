@@ -70,8 +70,12 @@ align-items: center;
     margin-left: 35px;
 }
 .img-detaile img{
-    width: 30vw;
-    margin-top: 5px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-around;
     
 }
 .content-detaile{
@@ -170,3 +174,10 @@ content-detaile h3,h4{
     color: #1C598E;
     border: none;
     }
+   /* .fa-solid {
+        color: #22c32d;
+    position: absolute;
+    bottom: -96px;
+    right: 512px;
+    z-index: 1;
+    } */
