@@ -4,61 +4,7 @@
     box-sizing: border-box;
 }
 
- .top-container{
-    background-image: url(../img/bachground.png); 
-    width:100%;
-    background-repeat: no-repeat;
-    
  
-} 
-.header-container{
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.header-left h1 .title-recipe{
-    font-family:Montez;
-    font-size: 63px;
-    color: #FAC552;
-}
-.header-left h1 .title-website{
-    font-family:MonteCarlo;
-    font-size: 36px;
-    color: #1C598E;
-    margin-left: 32px;
-}
-.header-center {
-display: flex;
-justify-content: space-around;
-gap: 20px;
-}
-nav{
-    font-size: 24px;
-}
-.header-center nav .active{
-    color:#1C598E;
-}
-.header-right input{
-    border-radius: 30px;
-    background-color: #1C598E;
-    padding: 19px;
-
-}
-input{
-    width: 166px;
-    height: 43px;
-}
-.header-right .fa-solid{
-    color: white;
-    position: absolute;
-    right: 272px;
-    top: 29px;
-    z-index: 159;
-}
-::placeholder {
-        color: white;
-      }
 
 /*start Detaile page*/
 .detaile-container{
