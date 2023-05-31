@@ -1,0 +1,50 @@
+
+
+/* الجوال */
+/* index */
+.feature-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.rate{
+    width: 65vw;
+}
+.menu-content {
+
+    flex-direction: column;
+    align-items: center;
+}
+.menu-content-cards img {
+    /* border-radius: 20px; */
+    width: 71vw;
+}
+
+footer{
+   flex-direction: column;
+
+}
+.list-content ul {
+
+    flex-wrap: wrap;
+}
+
+.menu-content-cards {
+
+    width: 71vw;
+}
+/* الوسط */
+/* index */
+.main {
+    padding-left: 39px;
+}
+/* list */
+.menu-content-cards {
+    height: 399px;
+}
+.menu-content-cards button {
+    width: 9vw;
+}
