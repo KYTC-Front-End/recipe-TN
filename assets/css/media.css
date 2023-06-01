@@ -1,6 +1,10 @@
 
 /* mobile */
 @media (max-width: 767px) {
+    #ra {
+        width: 23vw;
+        padding-top: 0px;
+    }
 /* index */
 #hero {
     width: 100%;
