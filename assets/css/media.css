@@ -338,7 +338,7 @@ footer{
 }
 
 /* big desktop */
-@media (min-width: 1441px) and (max-width:1920px) {
+/* @media (min-width: 1441px) and (max-width:1920px) {
     .btn-form {
         width: 650px;
         border-radius: 10px;
@@ -362,9 +362,9 @@ footer{
 
     }
 
-}
+} */
 
-@media (max-width : 992px) {
+/* @media (min-width : 992px) {
 
     .menu-content-cards h3{
         padding-bottom: 0%;
@@ -378,5 +378,4 @@ footer{
         width: 383px;
         height: 385px;
       
-      }
-}
+      } */
