@@ -433,6 +433,10 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
+.img-detaile img{
+  width: 80%;
+    margin-left: 200px;
+}
 
 .reviw-card1 img {
     width: 5%;
@@ -444,10 +448,10 @@ footer{
 }
 
 .content-detaile {
-    margin-left: -229px;
-    line-height: 26px;
-    margin-top: 205px;
-    font-size: 1.5em;
+  margin-left: 95px;
+  line-height: 26px;
+  margin-top: 78px;
+  font-size: 1.5em;
 }
 
 .content-detaile h4 {
@@ -596,12 +600,12 @@ form {
     border: none;
 }
 
-#icon-plus {
-    color: #1C598E;
-    position: absolute;
-    right: 31%;
-    font-size: 3.5em;
-    border: -0.5px solid;
-    top: 643px;
+/* #icon-plus {
+  color: #1C598E;
+  position: absolute;
+  right: 33%;
+  font-size: 2.5em;
+  border: -0.5px solid;
+  top: 597px;
 
-}
+} */
