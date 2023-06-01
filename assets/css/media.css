@@ -1,4 +1,91 @@
-@media (max-width: 600px) {
+
+/* mobile */
+@media (max-width: 767px) {
+/* index */
+#hero {
+    width: 100%;
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+#gallary {
+    padding-right: 0px;
+}
+nav li {
+    display: block;
+    margin-bottom: 5px;
+  }
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 994px;
+    padding-left: 0px;
+    margin-left: 0%;
+    margin-top: 80px;
+}
+.main p{
+    text-align: start;
+}
+.button-center button {
+    text-align: center;
+    margin-top: 30px;
+    border: 3px solid #F9AB01;
+    border-radius: 21px;
+    width: 162px;
+    height: 43px;
+    font-size: 18px;
+    color: #1C598E;
+    background-color: #fff;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.feature-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.rate{
+    width: 65vw;
+}
+.menu-content {
+
+    flex-direction: column;
+    align-items: center;
+}
+.menu-content-cards img {
+    /* border-radius: 20px; */
+    width: 71vw;
+}
+
+footer{
+   flex-direction: column;
+
+}
+.list-content ul {
+
+    flex-wrap: wrap;
+}
+
+.menu-content-cards {
+
+    width: 71vw;
+    height: 402px;
+
+}
+.menu-content-cards button {
+    width: 33vw;
+    height: 33px;
+
+    font-size: 17px;
+}
+    /*start Detaile page for mobiel*/
 
     /* your code should be written here  */
     .detaile-container {
@@ -114,10 +201,60 @@
 
 }
 
-/*Tablet*/
-@media (min-width: 601px) and (max-width:900px) {
-    /*submit page */
 
+
+@media (min-width: 768px) and (max-width : 991px) {
+    /* *Tablet*/ 
+
+    /* index */
+    .main {
+        padding-left: 39px;
+    }
+    #gallary {
+        padding-right: 0px;
+    }
+    /* list */
+    .menu-content-cards {
+    height: 412px;
+    }
+    .menu-content-cards button {
+        width: 9vw;}
+    
+    /* start Detaile page for tablet */
+    .detaile-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .content-detaile {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 24%;
+        margin: auto;
+        padding-top: 40px;
+    }
+    
+    .review-container {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .review-title {
+        gap: 221px;
+    }
+    
+    .share-review {
+        margin: auto;
+        width: 50%;
+        padding-top: 17px;
+    }
+    /* /* start Submit page for Tablet */ 
     form {
         display: flex;
         flex-direction: column;
@@ -224,4 +361,22 @@
         margin-top: 50px;
 
     }
+
+}
+
+@media (max-width : 992px) {
+
+    .menu-content-cards h3{
+        padding-bottom: 0%;
+      }
+
+      .rate {
+        width: 258px;
+      }
+
+      .menu-content-cards{
+        width: 383px;
+        height: 385px;
+      
+      }
 }
